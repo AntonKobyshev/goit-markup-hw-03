@@ -167,11 +167,11 @@ header .studio-in-logo {
   justify-content: center;
   margin-bottom: 50px;
 }
-/* .button-filter:not(:last-child) {
+.button-filter:not(:last-child) {
   display: block;
   margin-right: 8px;
-} */
-.button-filter {
+}
+.button-filter-content {
   color: var(--title-text-color);
   background-color: var(--button-filter-non-active-color);
   font-family: inherit;
@@ -182,8 +182,8 @@ header .studio-in-logo {
   cursor: pointer;
   border: none;
 }
-.button-filter:hover,
-.button-filter:focus {
+.button-filter-content:hover,
+.button-filter-content:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
