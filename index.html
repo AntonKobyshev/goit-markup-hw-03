@@ -58,9 +58,9 @@
         </div>
       </section>
       <!-- Чому ми? -->
-      <section class="section-preferences">
+      <section class="section">
         <div class="container">
-          <h2 hidden>Чому ми?</h2>
+          <h2 class="hidden">Чому ми?</h2>
           <ul class="preferences">
             <li class="item">
               <h3 class="section-preferences-title">Увага до деталей</h3>
@@ -68,7 +68,7 @@
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li class="item"> 
+            <li class="item">
               <h3 class="section-preferences-title">Пунктуальність</h3>
               <p class="section-preferences-paragraph">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
@@ -88,9 +88,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!-- Чим ми займаємося -->
-      <section class="what-we-do">
+
+        <!-- Чим ми займаємося -->
+
         <div class="container">
           <h2 class="what-we-do-title">Чим ми займаємося</h2>
           <ul class="what-we-do-pics">
@@ -122,45 +122,78 @@
         </div>
       </section>
       <!-- Наша команда -->
-      <section class="section3">
+      <section class="section">
         <div class="container">
-          <h2 class="section3-title">Наша команда</h2>
-          <ul>
-            <li>
-              <img
-                src="./images/ihor-demyanenko.jpg"
-                alt="ihor-demyanenko"
-                width="270"
-                height="260"
-              />
-              <h3 class="person-name">Ігор Дем'яненко</h3>
-              <p class="person-position">Product Designer</p>
+          <h2 class="section-what-we-do-title">Наша команда</h2>
+          <ul class="persons-list">
+            <li class="person-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    class="card-image"
+                    src="./images/ihor-demyanenko.jpg"
+                    alt="ihor-demyanenko"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="person-name">Ігор Дем'яненко</h3>
+                  <p class="person-position">Product Designer</p>
+                </div>
+              </article>
             </li>
-            <li>
-              <img src="./images/olha-repina.jpg" alt="olha-repina" width="270" height="260" />
-              <h3 class="person-name">Ольга Рєпіна</h3>
-              <p class="person-position">Frontend Developer</p>
+            <li class="person-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    class="card-image"
+                    src="./images/olha-repina.jpg"
+                    alt="olha-repina"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="person-name">Ольга Рєпіна</h3>
+                  <p class="person-position">Frontend Developer</p>
+                </div>
+              </article>
             </li>
-            <li>
-              <img
-                src="./images/mykola-tarasov.jpg"
-                alt="mykola-tarasov"
-                width="270"
-                height="260"
-              />
-              <h3 class="person-name">Микола Тарасов</h3>
-              <p class="person-position">Marketing</p>
+            <li class="person-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    class="card-image"
+                    src="./images/mykola-tarasov.jpg"
+                    alt="mykola-tarasov"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="person-name">Микола Тарасов</h3>
+                  <p class="person-position">Marketing</p>
+                </div>
+              </article>
             </li>
 
-            <li>
-              <img
-                src="./images/mykhailo-yermakov.jpg"
-                alt="mykhailo-yermakov"
-                width="270"
-                height="260"
-              />
-              <h3 class="person-name">Михайло Єрмаков</h3>
-              <p class="person-position">UI Designer</p>
+            <li class="person-list-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    class="card-image"
+                    src="./images/mykhailo-yermakov.jpg"
+                    alt="mykhailo-yermakov"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="person-name">Михайло Єрмаков</h3>
+                  <p class="person-position">UI Designer</p>
+                </div>
+              </article>
             </li>
           </ul>
         </div>
@@ -168,7 +201,7 @@
     </main>
     <!-- footer -->
     <footer>
-      <div class="container-footer">
+      <div class="container">
         <a href="./index.html" class="logo">Web<span class="studio-in-logo">Studio</span></a>
         <address>
           <ul class="adress">
