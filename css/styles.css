@@ -16,7 +16,7 @@ html {
   --primary-text-color: #757575;
   --footer-adress-text-color: rgba(255, 255, 255, 0.6);
   --foorter-hero-bg-color: #2f303a;
-  --section3-bg-color: #f5f4fa;
+  --section-comand-bg-color: #f5f4fa;
   --button-filter-non-active-color: #f5f4fa;
   --button-filter-active-color: #2196f3;
   --button-main-active-color: #188ce8;
@@ -160,7 +160,6 @@ header .studio-in-logo {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  text-align: center;
   cursor: pointer;
   border-radius: 4px;
   padding: 10px 32px;
@@ -266,11 +265,9 @@ header .studio-in-logo {
   margin-right: var(--card-set-gap);
 }
 
-.what-we-do-title {
-  margin-top: 94px;
-}
+
 .what-we-do-title,
-.section-what-we-do-title {
+.section-comand-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -278,8 +275,11 @@ header .studio-in-logo {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.section:nth-child(3n) {
-  background-color: var(--section3-bg-color);
+.what-we-do {
+  padding-top: 0;
+}
+.comand {
+  background-color: var(--section-comand-bg-color);
 }
 /* наша команда */
 .persons-list {
